@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pratham Dada — Portfolio & Projects</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Dada — Software Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="hero-container">
-    <!-- BACKGROUND VIDEO -->
+    <!-- VIDEO BACKGROUND -->
     <video class="bg-video" autoplay loop muted playsinline>
-      <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-fast-line-lights-31835-large.mp4" type="video/mp4">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-fast-line-lights-31835-large.mp4" type="video/mp4">
     </video>
 
-    <!-- NOISE & GRADIENT OVERLAYS -->
-    <div class="texture-overlay"></div>
-    <div class="gradient-overlay"></div>
+    <!-- SUBTLE GRAIN / TEXTURE OVERLAY -->
+    <div class="noise-layer"></div>
+    <div class="vignette-layer"></div>
 
-    <!-- FOREGROUND CONTENT -->
-    <div class="content-wrapper">
-      <nav>
-        <div class="logo">Pratham Dada</div>
+    <!-- MAIN CONTAINER -->
+    <div class="site-wrapper">
         
-        <!-- NAV LINKS FOR WEBSITES -->
-        <ul class="nav-links">
-          <li><a href="#" target="_blank">web1</a></li>
-          <li><a href="#" target="_blank">web2</a></li>
-          <li><a href="#" target="_blank">web3</a></li>
-          <li><a href="#" target="_blank">web4</a></li>
-          <li><a href="#" target="_blank">web5</a></li>
-          <li><a href="#" target="_blank">web6</a></li>
-          <li><a href="#" target="_blank">web7</a></li>
-          <li><a href="#" target="_blank">web8</a></li>
-          <li><a href="#" target="_blank">web9</a></li>
-          <li><a href="#" target="_blank">web10</a></li>
-        </ul>
-      </nav>
+        <!-- HEADER / NAVIGATION -->
+        <header class="site-header">
+            <div class="brand">
+                <span class="status-dot"></span>
+                <span>Pratham Dada</span>
+            </div>
 
-      <!-- HERO BODY CONTENT -->
-      <div class="hero-body">
-        <span class="badge">Open for Tech Opportunities</span>
-        <h1 class="hero-title">Hi, I'm <span>Pratham Dada</span></h1>
-        <p class="hero-subtitle">
-          An enthusiastic developer working to build scalable web applications, master software design principles, and solve complex real-world engineering problems.
-        </p>
+            <!-- 10 WEBSITES NAVIGATION -->
+            <nav class="projects-nav">
+                <a href="#" target="_blank">web1</a>
+                <a href="#" target="_blank">web2</a>
+                <a href="#" target="_blank">web3</a>
+                <a href="#" target="_blank">web4</a>
+                <a href="#" target="_blank">web5</a>
+                <a href="#" target="_blank">web6</a>
+                <a href="#" target="_blank">web7</a>
+                <a href="#" target="_blank">web8</a>
+                <a href="#" target="_blank">web9</a>
+                <a href="#" target="_blank">web10</a>
+            </nav>
 
-        <!-- DETAILS CARDS -->
-        <div class="details-grid">
-          <div class="detail-card">
-            <h3>Age & Location</h3>
-            <p>19 Years Old • Dhanbad, Jharkhand</p>
-          </div>
-          <div class="detail-card">
-            <h3>Education</h3>
-            <p>BCA Student at IGNOU, Delhi</p>
-          </div>
-          <div class="detail-card">
-            <h3>Career Goal</h3>
-            <p>Software Engineer</p>
-          </div>
-        </div>
-      </div>
+            <div class="header-actions">
+                <a href="mailto:contact@prathamdada.dev" class="contact-btn">Get in touch</a>
+            </div>
+        </header>
 
-      <!-- FOOTER -->
-      <footer>
-        <p>&copy; 2026 Pratham Dada. All rights reserved.</p>
-        <p>Built with Dark Video & Texture Aesthetic</p>
-      </footer>
+        <!-- HERO SECTION -->
+        <main class="hero-section">
+            <div class="hero-content">
+                <div class="meta-tag">
+                    <span>📍 Dhanbad, Jharkhand</span>
+                    <span class="separator">•</span>
+                    <span>19 yrs old</span>
+                </div>
+                
+                <h1 class="main-title">
+                    Building software for the web.
+                </h1>
+                
+                <p class="bio-text">
+                    Hi, I'm <strong>Pratham Dada</strong>. A first-year <strong>BCA student at IGNOU</strong> (Delhi), deeply passionate about computer science, clean architecture, and systems engineering. Currently focused on mastering web technologies and scaling toward a professional career as a <strong>Software Engineer</strong>.
+                </p>
+
+                <div class="action-row">
+                    <div class="tech-stack-badges">
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <p>&copy; 2026 Pratham Dada. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </footer>
+
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
